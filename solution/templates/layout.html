@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}{% endblock %}</title>
+<body>
+  <header>
+    <nav>
+      <ul class="nav navbar-nav">
+        {% for href, title in [
+          ['/', 'Home'],
+          ['/linux', 'Linux'],
+          ['/git', 'Git'],
+          ['/vim', 'Vim']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    <h3>by Dmitry Ivanov</h3>
+  </footer>
+</body>

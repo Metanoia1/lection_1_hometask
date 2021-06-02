@@ -1,0 +1,15 @@
+title: The most common Git commands:
+---
+body:
+
+status - Show the working tree status.
+
+log - Show commit logs.
+
+add - Add file contents to the index.
+
+branch - List, create, or delete branches.
+
+commit - Record changes to the repository.
+
+AND MUCH MORE...

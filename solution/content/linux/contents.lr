@@ -1,0 +1,15 @@
+title: The most common Linux commands:
+---
+body:
+
+cd - Change the shell working directory.
+
+ls - List  information  about  the  FILEs  (the current directory by default).
+
+mkdir - Create the DIRECTORY(ies), if they do not already exist.
+
+pwd - Print the full filename of the current working directory.
+
+man - the  system's  manual pager.
+
+AND MUCH MORE...

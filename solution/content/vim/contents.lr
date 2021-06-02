@@ -1,0 +1,15 @@
+title: The most common VIM commands:
+---
+body:
+
+yy - Copy line(s).  The “y” is for “yank.”
+
+yw yW - Copy token(s)/word(s).
+
+u ctrl+r - Undo and redo.
+
+dd - Delete line(s).
+
+cc - Correct line(s) by clearing and then entering insert mode.
+
+AND MUCH MORE...
